@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:Jimenezcurso/mi_widgets/mi_tarjeta.dart';
-import 'package:Jimenezcurso/mi_widgets/dialogo_acerca_de.dart';
+//import 'package:Jimenezcurso/mi_widgets/dialogo_acerca_de.dart';
+import 'package:Jimenezcurso/mi_widgets/lista_acerca_de.dart';
 
 const Color darkBlue = Color(0xff091c3d);
 void main() => runApp(MiTarjeta());
@@ -20,7 +21,8 @@ class MiTarjeta extends StatelessWidget {
           centerTitle: true,
         ),
         //body: const LaTarjeta(),
-        body: const DialogoAcercaDe(),
+        //body: const DialogoAcercaDe(),
+        body: const ListaAcercaDe(),
       ),
     );
   }
